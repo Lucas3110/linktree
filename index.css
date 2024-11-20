@@ -14,7 +14,7 @@ a {
     text-decoration: none;
   }
 body{
-    background-image: url(/imgs/fondo.jpg);
+    background-image: url(./imgs/fondo.jpg);
     display: flex;
     justify-content: center; 
     align-items: center; 
