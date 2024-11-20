@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    position: static;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    margin-bottom: 0;
+    padding: 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding-top: 200px; 
+}
+
+.navbar .header-cell {
+    text-align: center;
+    padding: 20px;
+}
+
+.header-link {
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-table {
+    width: 100%;
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-table td {
+    border-right: 1px solid #666;
+}
+
+.menu-table td:last-child {
+    border-right: none;
+}
+
+.menu-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.content-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.image-cell {
+    width: 50%;
+    padding: 20px;
+    vertical-align: top;
+    background-color: #f0f0f0;
+}
+
+.text-cell {
+    width: 50%;
+    padding: 20px;
+    vertical-align: top;
+    background-color: #f0f0f0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.image-lucas {
+    width: 100%;
+    height: auto;
+    border-radius: 2rem;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.percentage-cell {
+    height: 150px;
+    position: relative;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.percentage-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgb(45, 213, 115);
+}
+
+.trivia-option {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.trivia-link {
+    display: block;
+    padding: 50px;
+    background-color: #ddd;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: 2px solid #ccc;
+}
+
+.trivia-link:hover {
+    background-color: #ccc;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.side-menu-cell {
+    width: 200px;
+    vertical-align: top;
+    background-color: #f0f0f0;
+}
+
+.side-menu {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.side-menu-link {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    height: 100%;
+}
+
+.side-menu-link:hover {
+    background-color: #ddd;
+}
+
+.content-cell {
+    padding: 20px;
+    vertical-align: top;
+}
+
+.about-section {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.profile-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.text-cell {
+    text-align: center;
+    padding: 20px;
+}
+
+.image-cell {
+    text-align: center;
+}
+
+.correct-bg {
+    background-color: #d4edda; 
+    color: #155724;
+    padding-top: 150px;
+    height: 100vh; 
+    margin: 0;
+}
+
+.incorrect-bg {
+    background-color: #f8d7da; 
+    color: #721c24;
+    padding-top: 150px; 
+    height: 100vh; 
+    margin: 0;
+}
+
+.result-message {
+    text-align: center;
+    font-size: 3em; 
+    margin: 0; 
+    background-color: transparent; 
+    border: none; 
+    padding: 0; 
+}
