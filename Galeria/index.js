@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const nextBtn = document.getElementById('next');
   const prevBtn = document.getElementById('prev');
   let currentSlide = 0;
-  let slideInterval;
 
   function showSlide(index, direction) {
     slides[currentSlide].classList.remove('current');
@@ -39,31 +38,15 @@ document.addEventListener('DOMContentLoaded', function () {
       if (index !== currentSlide) {
         let direction = index > currentSlide ? 'next' : 'prev';
         showSlide(index, direction);
-        resetInterval();
       }
     });
   });
 
   nextBtn.addEventListener('click', () => {
     nextSlide();
-    resetInterval();
   });
 
   prevBtn.addEventListener('click', () => {
     prevSlide();
-    resetInterval();
   });
-
-  function startSlideInterval() {
-    slideInterval = setInterval(nextSlide, 5000);
-  }
-
-  function resetInterval() {
-    clearInterval(slideInterval);
-    startSlideInterval();
-  }
-
-
-  // Iniciar el cambio automático de diapositivas
-  startSlideInterval();
 });
