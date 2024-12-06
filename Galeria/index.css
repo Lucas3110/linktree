@@ -244,3 +244,24 @@ body {
         border-radius: 8px;
     }
 }
+.audio-controls button {
+    background: transparent;
+    border: none;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    margin: 0.2em;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.audio-controls button:hover {
+    color: rgba(255, 255, 255, 0.8);
+    transform: scale(1.1);
+}
+
+.audio-controls button:active {
+    color: rgba(255, 255, 255, 0.6);
+    transform: scale(0.95);
+}
